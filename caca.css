@@ -1,0 +1,49 @@
+*{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-transform: uppercase ;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(15, 88, 122) 21%, rgb(45, 67, 212) 42%, rgba(13, 28, 96, 1) 100%);
+
+
+}
+
+section{
+    /* border: red 3px solid; */
+display: flex;
+background-color: rgba(56, 18, 18, 0);
+width: 65%;
+}
+.coluna .celula{
+    font-size: 30px;
+    border: rgba(0, 0, 0, 0) 2px solid;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+
+}
+.coluna .celula1{
+    font-size: 30px;
+    border: rgb(0, 0, 0) 2px solid;
+    width: 35px;
+    height: 35px;
+    border-radius: 25%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: wavy;
+}
+.sla{
+    /* border: 3px red solid; */
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    border-radius: 20px;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin: 5% 5% 5%;
+}
