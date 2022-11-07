@@ -1,6 +1,5 @@
 * {
     font-family: 'Franklin Gothic Medium', sans-serif;
-    text-transform: uppercase;
 }
 
 body {
@@ -8,7 +7,7 @@ body {
 }
 
 .container {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     display: flex;
     margin: auto;
     width: 95%;
@@ -18,7 +17,7 @@ section {
     /* border: red 3px solid; */
     display: flex;
     background-color: rgba(56, 18, 18, 0);
-    width: 70%;
+    width: 65%;
 }
 
 .coluna .celula {
@@ -42,23 +41,38 @@ section {
     color: transparent;
 }
 
-.index {
-    font-size: 15px;
-    border: rgb(0, 0, 0) 2px solid;
-    width: 35px;
-    height: 35px;
-    border-radius: 25%;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-}
-
 .box {
     /* border: 3px red solid; */
     background-color: white;
     border-radius: 20px;
-    width: 30%;
+    width: 35%;
 }
 
 .container_box {
     margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .text_box {
+    display: flex;
+    flex-direction: row;
+} */
+
+.text_box input {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    margin-bottom: 2%;
+}
+
+.title .container {
+    justify-content: center;
+}
+
+.title .container h1 {
+    color: white;
+    font-size: 35px;
 }

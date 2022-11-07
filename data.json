@@ -1,0 +1,14 @@
+{
+    "palavras": [
+        {
+            "item": "eprom",
+            "intersecção": "r",
+            "target": "rom"
+        },
+        {
+            "item": "eprom",
+            "intersecção": "r",
+            "target": "rom"
+        }
+    ]
+}
