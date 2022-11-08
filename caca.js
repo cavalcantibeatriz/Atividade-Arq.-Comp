@@ -14,6 +14,7 @@ function validar() {
             document.querySelector(`.a${index}`).style.color = 'white';
             document.querySelector(`.a${index}`).style.background = 'green';
         }
+        p1B.style.border = 'solid 2px green'
 
         epromValid = true
 
@@ -22,8 +23,8 @@ function validar() {
             document.querySelector(`.a${index}`).style.color = 'transparent';
             document.querySelector(`.a${index}`).style.background = 'white';
         }
-
         epromValid = false
+        p1B.style.border = 'solid 2px transparent'
     }
 
 
@@ -34,6 +35,7 @@ function validar() {
             document.querySelector(`.b${index}`).style.color = 'white';
             document.querySelector(`.b${index}`).style.background = 'green';
         }
+        p2B.style.border = 'solid 2px green'
     } else {
         for (index = 1; index <= 3; index++) {
             if (index == 1) {
@@ -46,6 +48,7 @@ function validar() {
                 document.querySelector(`.b${index}`).style.background = 'white';
             }
         }
+        p2B.style.border = 'solid 2px transparent'
     }
 
 
@@ -56,6 +59,7 @@ function validar() {
             document.querySelector(`.c${index}`).style.color = 'white';
             document.querySelector(`.c${index}`).style.background = 'green';
         }
+        p3B.style.border = 'solid 2px green'
         memoriaValid = true
 
     } else {
@@ -70,6 +74,7 @@ function validar() {
                 document.querySelector(`.c${index}`).style.background = 'white';
             }
         }
+        p3B.style.border = 'solid 2px transparent'
         memoriaValid =  false
     }
 
@@ -80,6 +85,7 @@ function validar() {
             document.querySelector(`.d${index}`).style.color = 'white';
             document.querySelector(`.d${index}`).style.background = 'green';
         }
+        p4B.style.border = 'solid 2px green'
         threadsValid = true
     } else {
         for (index = 1; index <= 7; index++) {
@@ -93,6 +99,7 @@ function validar() {
                 document.querySelector(`.d${index}`).style.background = 'white';
             }
         }
+        p4B.style.border = 'solid 2px transparent'
         threadsValid = false
     }
 
@@ -102,6 +109,7 @@ function validar() {
             document.querySelector(`.e${index}`).style.color = 'white';
             document.querySelector(`.e${index}`).style.background = 'green';
         }
+        p5B.style.border = 'solid 2px green'
     } else {
         for (index = 1; index <= 2; index++) {
             if (index == 1) {
@@ -114,6 +122,7 @@ function validar() {
                 document.querySelector(`.e${index}`).style.background = 'white';
             }
         }
+        p5B.style.border = 'solid 2px transparent'
     }
 
 
@@ -122,6 +131,7 @@ function validar() {
             document.querySelector(`.f${index}`).style.color = 'white';
             document.querySelector(`.f${index}`).style.background = 'green';
         }
+        p6B.style.border = 'solid 2px green'
         registradorValid = true
 
     } else {
@@ -136,6 +146,7 @@ function validar() {
                 document.querySelector(`.f${index}`).style.background = 'white';
             }
         }
+        p6B.style.border = 'solid 2px transparent'
         registradorValid = false
     }
 
@@ -144,6 +155,7 @@ function validar() {
             document.querySelector(`.g${index}`).style.color = 'white';
             document.querySelector(`.g${index}`).style.background = 'green';
         }
+        p7B.style.border = 'solid 2px green'
     } else {
         for (index = 1; index <= 3; index++) {
             if (index == 3) {
@@ -156,6 +168,7 @@ function validar() {
                 document.querySelector(`.g${index}`).style.background = 'white';
             }
         }
+        p7B.style.border = 'solid 2px transparent'
     }
 
 
@@ -164,6 +177,7 @@ function validar() {
             document.querySelector(`.h${index}`).style.color = 'white';
             document.querySelector(`.h${index}`).style.background = 'green';
         }
+        p8B.style.border = 'solid 2px green'
         flashValid = true
     } else {
         for (index = 1; index <= 5; index++) {
@@ -177,6 +191,7 @@ function validar() {
                 document.querySelector(`.h${index}`).style.background = 'white';
             }
         }
+        p8B.style.border = 'solid 2px transparent'
         flashValid =  false
     }
 
@@ -186,6 +201,7 @@ function validar() {
             document.querySelector(`.i${index}`).style.color = 'white';
             document.querySelector(`.i${index}`).style.background = 'green';
         }
+        p9B.style.border = 'solid 2px green'
     } else {
         for (index = 1; index <= 3; index++) {
             if (index == 2) {
@@ -198,6 +214,7 @@ function validar() {
                 document.querySelector(`.i${index}`).style.background = 'white';
             }
         }
+        p9B.style.border = 'solid 2px transparent'
     }
 
 
@@ -207,6 +224,7 @@ function validar() {
             document.querySelector(`.j${index}`).style.color = 'white';
             document.querySelector(`.j${index}`).style.background = 'green';
         }
+        p10B.style.border = 'solid 2px green'
         dmaValid = true
     } else {
         for (index = 1; index <= 3; index++) {
@@ -220,6 +238,7 @@ function validar() {
                 document.querySelector(`.j${index}`).style.background = 'white';
             }
         }
+        p10B.style.border = 'solid 2px transparent'
         dmaValid = false
     }
 
@@ -229,6 +248,7 @@ function validar() {
             document.querySelector(`.k${index}`).style.color = 'white';
             document.querySelector(`.k${index}`).style.background = 'green';
         }
+        p11B.style.border = 'solid 2px green'
         csValid = true
     } else {
         for (index = 1; index <= 2; index++) {
@@ -242,6 +262,7 @@ function validar() {
                 document.querySelector(`.k${index}`).style.background = 'white';
             }
         }
+        p11B.style.border = 'solid 2px transparent'
         csValid = false
     }
 
@@ -252,6 +273,7 @@ function validar() {
             document.querySelector(`.l${index}`).style.color = 'white';
             document.querySelector(`.l${index}`).style.background = 'green';
         }
+        p12B.style.border = 'solid 2px green'
     } else {
         for (index = 1; index <= 3; index++) {
             if (index == 1) {
@@ -264,6 +286,7 @@ function validar() {
                 document.querySelector(`.l${index}`).style.background = 'white';
             }
         }
+        p12B.style.border = 'solid 2px transparent'
     }
 
 
@@ -273,6 +296,7 @@ function validar() {
             document.querySelector(`.m${index}`).style.color = 'white';
             document.querySelector(`.m${index}`).style.background = 'green';
         }
+        p13B.style.border = 'solid 2px green'
         adressValid = true
     } else {
         for (index = 1; index <= 10; index++) {
@@ -286,6 +310,7 @@ function validar() {
                 document.querySelector(`.m${index}`).style.background = 'white';
             }
         }
+        p13B.style.border = 'solid 2px transparent'
         adressValid = false
     }
 
@@ -295,6 +320,7 @@ function validar() {
             document.querySelector(`.n${index}`).style.color = 'white';
             document.querySelector(`.n${index}`).style.background = 'green';
         }
+        p14B.style.border = 'solid 2px green'
     } else {
         for (index = 1; index <= 9; index++) {
             if (index == 5) {
@@ -312,6 +338,7 @@ function validar() {
                 document.querySelector(`.n${index}`).style.background = 'white';
             }
         }
+        p14B.style.border = 'solid 2px transparent'
     }
 
 
@@ -320,6 +347,7 @@ function validar() {
             document.querySelector(`.o${index}`).style.color = 'white';
             document.querySelector(`.o${index}`).style.background = 'green';
         }
+        p15B.style.border = 'solid 2px green'
         dataValid = true
     } else {
         for (index = 1; index <= 8; index++) {
@@ -333,6 +361,7 @@ function validar() {
                 document.querySelector(`.o${index}`).style.background = 'white';
             }
         }
+        p15B.style.border = 'solid 2px transparent'
         dataValid = false
     }
 
@@ -342,6 +371,7 @@ function validar() {
             document.querySelector(`.p${index}`).style.color = 'white';
             document.querySelector(`.p${index}`).style.background = 'green';
         }
+        p16B.style.border = 'solid 2px green'
     } else {
         for (index = 1; index <= 9; index++) {
             if (index == 4) {
@@ -354,6 +384,7 @@ function validar() {
                 document.querySelector(`.p${index}`).style.background = 'white';
             }
         }
+        p16B.style.border = 'solid 2px transparent'
     }
 
 
@@ -362,6 +393,7 @@ function validar() {
             document.querySelector(`.q${index}`).style.color = 'white';
             document.querySelector(`.q${index}`).style.background = 'green';
         }
+        p17B.style.border = 'solid 2px green'
     } else {
         for (index = 1; index <= 2; index++) {
             if (index == 1) {
@@ -374,6 +406,7 @@ function validar() {
                 document.querySelector(`.q${index}`).style.background = 'white';
             }
         }
+        p17B.style.border = 'solid 2px transparent'
     }
 
 
@@ -382,6 +415,7 @@ function validar() {
             document.querySelector(`.r${index}`).style.color = 'white';
             document.querySelector(`.r${index}`).style.background = 'green';
         }
+        p18B.style.border = 'solid 2px green'
     } else {
         for (index = 1; index <= 5; index++) {
             if (index == 2) {
@@ -394,6 +428,7 @@ function validar() {
                 document.querySelector(`.r${index}`).style.background = 'white';
             }
         }
+        p18B.style.border = 'solid 2px transparent'
     }
 
 

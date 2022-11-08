@@ -46,6 +46,8 @@ section {
     background-color: white;
     border-radius: 20px;
     width: 35%;
+    background-color: rgb(119, 119, 238);
+    color: black;
 }
 
 .container_box {
@@ -75,4 +77,8 @@ section {
 .title .container h1 {
     color: white;
     font-size: 35px;
+}
+
+.text input {
+    border-radius: 20px;
 }
