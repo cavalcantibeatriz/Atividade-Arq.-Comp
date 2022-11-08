@@ -1,5 +1,5 @@
 # projarqbiaeryfely
 trabalho desenvolvido por:
 Beatriz Cavalcanti,
-Eryka Maria,
+Eryka Maria e
 Felipy Roma.
